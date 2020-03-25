@@ -1,0 +1,21 @@
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\bin\Debug\Digital Media Store.exe.config
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\bin\Debug\Digital Media Store.exe
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\bin\Debug\Digital Media Store.pdb
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\obj\Debug\Digital Media Store.csprojAssemblyReference.cache
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\obj\Debug\Digital_Media_Store.MainWindow.resources
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\obj\Debug\Digital_Media_Store.Properties.Resources.resources
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\obj\Debug\Digital Media Store.csproj.GenerateResource.cache
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\obj\Debug\Digital Media Store.exe
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\obj\Debug\Digital Media Store.pdb
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\obj\Debug\Digital_Media_Store.StoreForm.resources
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\bin\Debug\DMSClassLibrary.dll
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\bin\Debug\EntityFramework.dll
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\bin\Debug\EntityFramework.SqlServer.dll
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\bin\Debug\DMSClassLibrary.pdb
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\bin\Debug\DMSClassLibrary.dll.config
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\bin\Debug\EntityFramework.xml
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\bin\Debug\EntityFramework.SqlServer.xml
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\obj\Debug\Digital Media Store.csproj.CopyComplete
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\bin\Debug\PagedList.dll
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\bin\Debug\PagedList.xml
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\Digital Media Store\obj\Debug\Digital_Media_Store.TrackDetailsForm.resources
