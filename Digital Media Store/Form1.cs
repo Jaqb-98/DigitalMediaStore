@@ -47,6 +47,7 @@ namespace Digital_Media_Store
             this.Hide();
             var manegementpanel = new ManagementForm();
             manegementpanel.ShowDialog();
+            this.Close();
            
         }
     }

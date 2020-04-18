@@ -37,6 +37,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btn_Back = new System.Windows.Forms.Button();
             this.loadingPicture = new System.Windows.Forms.PictureBox();
+            this.btn_AddItem = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.loadingPicture)).BeginInit();
             this.SuspendLayout();
             // 
@@ -113,11 +114,24 @@
             this.loadingPicture.TabStop = false;
             this.loadingPicture.Visible = false;
             // 
+            // btn_AddItem
+            // 
+            this.btn_AddItem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_AddItem.BackColor = System.Drawing.Color.DarkSalmon;
+            this.btn_AddItem.Location = new System.Drawing.Point(912, 622);
+            this.btn_AddItem.Name = "btn_AddItem";
+            this.btn_AddItem.Size = new System.Drawing.Size(145, 44);
+            this.btn_AddItem.TabIndex = 5;
+            this.btn_AddItem.Text = "Add item";
+            this.btn_AddItem.UseVisualStyleBackColor = false;
+            this.btn_AddItem.Click += new System.EventHandler(this.btn_AddItem_Click);
+            // 
             // ManagementForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1080, 677);
+            this.Controls.Add(this.btn_AddItem);
             this.Controls.Add(this.loadingPicture);
             this.Controls.Add(this.btn_Back);
             this.Controls.Add(this.label1);
@@ -144,5 +158,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn_Back;
         private System.Windows.Forms.PictureBox loadingPicture;
+        private System.Windows.Forms.Button btn_AddItem;
     }
 }

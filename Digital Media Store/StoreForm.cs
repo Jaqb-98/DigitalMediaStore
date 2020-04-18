@@ -24,6 +24,11 @@ namespace Digital_Media_Store
             this.CenterToScreen();
         }
 
+        public static double ConvertBytesToMegabytes(long bytes)
+        {
+            return (bytes / 1024f) / 1024f;
+        }
+
         private async void SearchButton_Click(object sender, EventArgs e)
         {
 
@@ -216,10 +221,7 @@ namespace Digital_Media_Store
 
 
 
-                double ConvertBytesToMegabytes(long bytes)
-                {
-                    return (bytes / 1024f) / 1024f;
-                }
+
 
             }
         }
@@ -284,6 +286,29 @@ namespace Digital_Media_Store
             var form = new MainWindow();
             form.ShowDialog();
             this.Close();
+        }
+
+        private async void StoreForm_Load(object sender, EventArgs e)
+        {
+            using (var context = new ChinookEntities())
+            {
+                List<string> genresList = new List<string>();
+                genresList.Add("");
+                var genres = await context.Genres.Select(g => g.Name).ToListAsync();
+
+                foreach (var genre in genres)
+                {
+                    if (!genresList.Contains(genre.ToString()))
+                    {
+                        genresList.Add(genre.ToString());
+                    }
+                }
+
+                foreach (var item in genresList)
+                {
+                    GenreBox.Items.Add(item.ToString());
+                }
+            }
         }
     }
 }

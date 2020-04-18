@@ -48,3 +48,8 @@ E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMed
 E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\Digital Media Store\obj\Debug\Digital_Media_Store.SummaryForm.resources
 E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\Digital Media Store\obj\Debug\Digital_Media_Store.EndForm.resources
 E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\Digital Media Store\obj\Debug\Digital_Media_Store.ManagementForm.resources
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\Digital Media Store\obj\Debug\Digital_Media_Store.AddItemForm.resources
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\Digital Media Store\obj\Debug\Digital_Media_Store.AddAuthor.resources
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\Digital Media Store\obj\Debug\Digital_Media_Store.AddAlbum.resources
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\Digital Media Store\obj\Debug\Digital_Media_Store.Adding_Forms.AddGenre.resources
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\Digital Media Store\obj\Debug\Digital_Media_Store.Adding_Forms.AddMediaType.resources

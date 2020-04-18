@@ -12,6 +12,7 @@ namespace Digital_Media_Store
         public ManagementForm()
         {
             InitializeComponent();
+            this.CenterToScreen();
         }
 
         private async void dateTimePicker1_ValueChanged(object sender, EventArgs e)
@@ -65,12 +66,17 @@ namespace Digital_Media_Store
         private void btn_Back_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var formToShow = Application.OpenForms.Cast<Form>()
-                .FirstOrDefault(c => c is MainWindow);
-
-            if (formToShow != null)
-                formToShow.Show();
+            var form = new MainWindow();
+            form.ShowDialog();
+            this.Close();
         }
 
+        private void btn_AddItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var addItemForm = new AddItemForm();
+            addItemForm.ShowDialog();
+            
+        }
     }
 }

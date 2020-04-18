@@ -64,6 +64,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adding Forms\AddAlbum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adding Forms\AddAlbum.Designer.cs">
+      <DependentUpon>AddAlbum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adding Forms\AddAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adding Forms\AddAuthor.Designer.cs">
+      <DependentUpon>AddAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adding Forms\AddGenre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adding Forms\AddGenre.Designer.cs">
+      <DependentUpon>AddGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adding Forms\AddItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adding Forms\AddItemForm.Designer.cs">
+      <DependentUpon>AddItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adding Forms\AddMediaType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adding Forms\AddMediaType.Designer.cs">
+      <DependentUpon>AddMediaType.cs</DependentUpon>
+    </Compile>
     <Compile Include="CartForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +138,21 @@
     <Compile Include="SummaryForm.Designer.cs">
       <DependentUpon>SummaryForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Adding Forms\AddAlbum.resx">
+      <DependentUpon>AddAlbum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adding Forms\AddAuthor.resx">
+      <DependentUpon>AddAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adding Forms\AddGenre.resx">
+      <DependentUpon>AddGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adding Forms\AddItemForm.resx">
+      <DependentUpon>AddItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adding Forms\AddMediaType.resx">
+      <DependentUpon>AddMediaType.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CartForm.resx">
       <DependentUpon>CartForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -159,6 +204,7 @@
       <Name>ClassLibrary</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

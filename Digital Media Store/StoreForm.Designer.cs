@@ -44,10 +44,10 @@ namespace Digital_Media_Store
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StoreForm));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             this.FilterPanel = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.btn_Cart = new System.Windows.Forms.Button();
@@ -65,6 +65,7 @@ namespace Digital_Media_Store
             this.previousPageButton = new System.Windows.Forms.Button();
             this.nextPageButton = new System.Windows.Forms.Button();
             this.DetailsTablePanel = new System.Windows.Forms.TableLayoutPanel();
+            this.addedToCartPicture = new System.Windows.Forms.PictureBox();
             this.TypeLabel = new System.Windows.Forms.Label();
             this.ArtistLabel = new System.Windows.Forms.Label();
             this.TitleLabel = new System.Windows.Forms.Label();
@@ -79,16 +80,15 @@ namespace Digital_Media_Store
             this.panel1 = new System.Windows.Forms.Panel();
             this.loadingPicture = new System.Windows.Forms.PictureBox();
             this.DataGridView = new System.Windows.Forms.DataGridView();
-            this.addedToCartPicture = new System.Windows.Forms.PictureBox();
             this.FilterPanel.SuspendLayout();
             this.radioGroupBox.SuspendLayout();
             this.DetailsPanel.SuspendLayout();
             this.pagePanel.SuspendLayout();
             this.DetailsTablePanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.addedToCartPicture)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.loadingPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.addedToCartPicture)).BeginInit();
             this.SuspendLayout();
             // 
             // FilterPanel
@@ -108,13 +108,14 @@ namespace Digital_Media_Store
             // 
             // button1
             // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button1.BackColor = System.Drawing.Color.DarkSalmon;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 658);
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(12, 690);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 83);
+            this.button1.Size = new System.Drawing.Size(88, 51);
             this.button1.TabIndex = 20;
-            this.button1.Text = "←";
+            this.button1.Text = "Back";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -140,34 +141,9 @@ namespace Digital_Media_Store
             // 
             // GenreBox
             // 
+            this.GenreBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.GenreBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.GenreBox.FormattingEnabled = true;
-            this.GenreBox.Items.AddRange(new object[] {
-            "",
-            "Rock",
-            "Jazz",
-            "Metal",
-            "Alternative & Punk",
-            "Rock And Roll",
-            "Blues",
-            "Latin",
-            "Reggae",
-            "Pop",
-            "Soundtrack",
-            "Bossa Nova",
-            "Easy Listening",
-            "Heavy Metal",
-            "R&B/Soul",
-            "Electronica/Dance",
-            "World",
-            "Hip Hop/Rap",
-            "Science Fiction",
-            "TV Shows",
-            "Sci Fi & Fantasy",
-            "Drama",
-            "Comedy",
-            "Alternative",
-            "Classical",
-            "Opera"});
             this.GenreBox.Location = new System.Drawing.Point(12, 308);
             this.GenreBox.Name = "GenreBox";
             this.GenreBox.Size = new System.Drawing.Size(173, 36);
@@ -333,6 +309,18 @@ namespace Digital_Media_Store
             this.DetailsTablePanel.TabIndex = 39;
             this.DetailsTablePanel.Visible = false;
             // 
+            // addedToCartPicture
+            // 
+            this.addedToCartPicture.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.addedToCartPicture.Image = ((System.Drawing.Image)(resources.GetObject("addedToCartPicture.Image")));
+            this.addedToCartPicture.Location = new System.Drawing.Point(619, 173);
+            this.addedToCartPicture.Name = "addedToCartPicture";
+            this.addedToCartPicture.Size = new System.Drawing.Size(26, 26);
+            this.addedToCartPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.addedToCartPicture.TabIndex = 11;
+            this.addedToCartPicture.TabStop = false;
+            this.addedToCartPicture.Visible = false;
+            // 
             // TypeLabel
             // 
             this.TypeLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -472,37 +460,37 @@ namespace Digital_Media_Store
             this.DataGridView.BackgroundColor = System.Drawing.SystemColors.Control;
             this.DataGridView.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.DataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkSalmon;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.DarkSalmon;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.Desktop;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.DarkSalmon;
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.DarkSalmon;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.Desktop;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
             this.DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.Desktop;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DataGridView.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.Desktop;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DataGridView.DefaultCellStyle = dataGridViewCellStyle14;
             this.DataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DataGridView.EnableHeadersVisualStyles = false;
             this.DataGridView.GridColor = System.Drawing.SystemColors.Control;
             this.DataGridView.Location = new System.Drawing.Point(0, 0);
             this.DataGridView.Name = "DataGridView";
             this.DataGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
             this.DataGridView.RowHeadersVisible = false;
             this.DataGridView.RowHeadersWidth = 51;
             this.DataGridView.RowTemplate.Height = 24;
@@ -510,18 +498,6 @@ namespace Digital_Media_Store
             this.DataGridView.Size = new System.Drawing.Size(956, 491);
             this.DataGridView.TabIndex = 9;
             this.DataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_CellContentClick);
-            // 
-            // addedToCartPicture
-            // 
-            this.addedToCartPicture.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.addedToCartPicture.Image = ((System.Drawing.Image)(resources.GetObject("addedToCartPicture.Image")));
-            this.addedToCartPicture.Location = new System.Drawing.Point(619, 173);
-            this.addedToCartPicture.Name = "addedToCartPicture";
-            this.addedToCartPicture.Size = new System.Drawing.Size(26, 26);
-            this.addedToCartPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.addedToCartPicture.TabIndex = 11;
-            this.addedToCartPicture.TabStop = false;
-            this.addedToCartPicture.Visible = false;
             // 
             // StoreForm
             // 
@@ -538,6 +514,7 @@ namespace Digital_Media_Store
             this.MinimumSize = new System.Drawing.Size(800, 600);
             this.Name = "StoreForm";
             this.Text = "Digital Media Store";
+            this.Load += new System.EventHandler(this.StoreForm_Load);
             this.FilterPanel.ResumeLayout(false);
             this.FilterPanel.PerformLayout();
             this.radioGroupBox.ResumeLayout(false);
@@ -547,10 +524,10 @@ namespace Digital_Media_Store
             this.pagePanel.PerformLayout();
             this.DetailsTablePanel.ResumeLayout(false);
             this.DetailsTablePanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.addedToCartPicture)).EndInit();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.loadingPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.addedToCartPicture)).EndInit();
             this.ResumeLayout(false);
 
         }
