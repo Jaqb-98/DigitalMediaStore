@@ -1,0 +1,12 @@
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\ClassLibrary\bin\Debug\ClassLibrary.dll.config
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\ClassLibrary\bin\Debug\ClassLibrary.dll
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\ClassLibrary\bin\Debug\ClassLibrary.pdb
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\ClassLibrary\bin\Debug\EntityFramework.dll
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\ClassLibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\ClassLibrary\bin\Debug\EntityFramework.xml
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\ClassLibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\ClassLibrary\obj\Debug\ClassLibrary.csproj.CopyComplete
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\ClassLibrary\obj\Debug\ClassLibrary.dll
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\ClassLibrary\obj\Debug\ClassLibrary.pdb

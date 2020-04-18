@@ -16,6 +16,7 @@ namespace Digital_Media_Store
         public MainWindow()
         {
             InitializeComponent();
+            this.CenterToScreen();
         }
 
         private void exitButton_Click(object sender, EventArgs e)
@@ -39,6 +40,14 @@ namespace Digital_Media_Store
             var storeForm = new StoreForm();
             storeForm.ShowDialog();
             this.Close();
+        }
+
+        private void btn_ManagementPanel_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var manegementpanel = new ManagementForm();
+            manegementpanel.ShowDialog();
+           
         }
     }
 }

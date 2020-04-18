@@ -9,3 +9,15 @@ E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DMSClassLi
 E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DMSClassLibrary\obj\Debug\DMSClassLibrary.csproj.CopyComplete
 E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DMSClassLibrary\obj\Debug\DMSClassLibrary.dll
 E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DMSClassLibrary\obj\Debug\DMSClassLibrary.pdb
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\DMSClassLibrary\bin\Debug\DMSClassLibrary.dll.config
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\DMSClassLibrary\bin\Debug\DMSClassLibrary.dll
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\DMSClassLibrary\bin\Debug\DMSClassLibrary.pdb
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\DMSClassLibrary\bin\Debug\EntityFramework.dll
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\DMSClassLibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\DMSClassLibrary\bin\Debug\EntityFramework.xml
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\DMSClassLibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\DMSClassLibrary\obj\Debug\DMSClassLibrary.csprojAssemblyReference.cache
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\DMSClassLibrary\obj\Debug\DMSClassLibrary.csproj.CoreCompileInputs.cache
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\DMSClassLibrary\obj\Debug\DMSClassLibrary.csproj.CopyComplete
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\DMSClassLibrary\obj\Debug\DMSClassLibrary.dll
+E:\Visual Studio workspace\P4\WinForms Project P4\Digital Media Store\DigitalMediaStore\DMSClassLibrary\obj\Debug\DMSClassLibrary.pdb

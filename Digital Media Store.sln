@@ -4,11 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digital Media Store", "Digital Media Store\Digital Media Store.csproj", "{9ABD6449-EDD7-4858-BE7F-4BA3B4A08F33}"
-	ProjectSection(ProjectDependencies) = postProject
-		{8951823D-3710-4063-8D4C-F022A7E51E6F} = {8951823D-3710-4063-8D4C-F022A7E51E6F}
-	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMSClassLibrary", "DMSClassLibrary\DMSClassLibrary.csproj", "{8951823D-3710-4063-8D4C-F022A7E51E6F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{43EF6E03-058D-45D7-BAAA-1765D43FAF38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,10 +17,10 @@ Global
 		{9ABD6449-EDD7-4858-BE7F-4BA3B4A08F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ABD6449-EDD7-4858-BE7F-4BA3B4A08F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ABD6449-EDD7-4858-BE7F-4BA3B4A08F33}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8951823D-3710-4063-8D4C-F022A7E51E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8951823D-3710-4063-8D4C-F022A7E51E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8951823D-3710-4063-8D4C-F022A7E51E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8951823D-3710-4063-8D4C-F022A7E51E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43EF6E03-058D-45D7-BAAA-1765D43FAF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43EF6E03-058D-45D7-BAAA-1765D43FAF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43EF6E03-058D-45D7-BAAA-1765D43FAF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43EF6E03-058D-45D7-BAAA-1765D43FAF38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

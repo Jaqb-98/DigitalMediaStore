@@ -16,7 +16,7 @@ namespace DMSClassLibrary
     public partial class ChinookEntities : DbContext
     {
         public ChinookEntities()
-            : base("name=ChinookEntities")
+            : base("name=Chinook")
         {
         }
     
